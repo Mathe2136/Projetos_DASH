@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+<style>
+  body {
+    font-family: helvetica, sans-serif;
+    margin:0 auto;
+    max-width: 600px;
+  }
+  p {
+  color: rgba(255, 255, 255, 1);
+  background:-webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  text-align:justify;
+  line-height:28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+  .price {
+    float: right;
+    }
+  
+  div {
+    height: 200px;
+    position:relative;
+    margin: 40px 0 0 0;
+    border-radius:12px;
+  }
+  .first {
+    background: url("http://dash.ga.co/assets/firstcourse.jpg");
+  }
+  .second {
+    background: url("http://dash.ga.co/assets/secondcourse.jpg");
+  }
+  .dessert {  
+    background: url("http://dash.ga.co/assets/dessertcourse.jpg");
+  }
+</style>
+
+</head>
+
+<body>
+  <h1>esha's restaurant</h1>
+  <!--TEXTO 1-->
+  <div class="first">
+    <p>welsh onion soko <span class="price">$14</span><br />
+    <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil.</small> 
+    </p>
+  </div>
+   <!--TEXTO 2-->
+  <div class="second">
+    <p>pastrami boudin tongue <span class="price">$22</span><br />
+    <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small>
+    </p>
+  </div>
+   <!--TEXTO 3-->
+  <div class="dessert">
+    <p>fruitcake marzipan pudding dragee <span class="price">$0</span><br />
+    <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small>
+    </p>
+  </div>
+</body>
